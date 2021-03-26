@@ -5,6 +5,7 @@ body {
 #container {
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
 
 #background {
@@ -25,6 +26,38 @@ body {
 	grid-column: 2/12;
 	display: flex;
 	flex-direction: row;
+}
+#text1 {
+	position: absolute;
+	top: 150px;
+	left: 350px;
+	font-size: 4em;
+	color: white;
+	font-weight: 100;
+}
+#text2 {
+	position: absolute;
+	top: 250px;
+	left: 300px;
+	font-size: 2em;
+	color: white;
+	font-weight: 100;
+}
+#text3 {
+	position: absolute;
+	top: 290px;
+	left: 350px;
+	font-size: 2em;
+	color: white;
+	font-weight: 100;
+}
+#text4 {
+	position: absolute;
+	top: 350px;
+	left: 410px;
+	font-size: 1.6em;
+	color: white;
+	font-weight: 100;
 }
 
 #images {
