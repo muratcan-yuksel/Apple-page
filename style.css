@@ -1,0 +1,17 @@
+#container {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(13, 1fr);
+	grid-template-rows: repeat(13, 1fr);
+}
+#background {
+	background-image: url("./images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 80%;
+	width: 300px;
+	height: 300px;
+	border: 2px solid;
+	grid-column: 5/10;
+	grid-row: 6/12;
+}
