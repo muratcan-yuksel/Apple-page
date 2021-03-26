@@ -1,12 +1,16 @@
 body {
+	height: 100vh;
+	width: 100vw;
+}
+#container {
 	height: 100%;
 	width: 100%;
 }
 
 #background {
 	background: url("./images/background.jpg");
-	min-height: 568px;
-	max-width: 100%;
+	min-height: 85%;
+	max-width: 99%;
 	background-position: center bottom;
 	background-size: cover;
 	top: 0;
@@ -17,5 +21,20 @@ body {
 	grid-template-columns: repeat(5, 1fr);
 }
 
-#header {
+#images {
+	display: flex;
+	max-width: 100%;
+	flex-direction: row;
+}
+#one {
+	width: 330px;
+}
+#two {
+	width: 320px;
+}
+#three {
+	width: 320px;
+}
+#four {
+	width: 310px;
 }
