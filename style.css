@@ -113,3 +113,9 @@ body {
 #search {
 	height: 2.6em;
 }
+.header:hover {
+	background: #2b292b;
+	background: -webkit-linear-gradient(top left, #2b292b, #262c2f);
+	background: -moz-linear-gradient(top left, #2b292b, #262c2f);
+	background: linear-gradient(to bottom right, #2b292b, #262c2f);
+}
